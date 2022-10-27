@@ -1,2 +1,2 @@
 # UPTO
-Projet and exo for UPTO
+Project and exo for UPTO..
