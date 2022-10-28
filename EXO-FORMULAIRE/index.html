@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="tp.php" method="post">
+    <div>
+        <input placeholder="nom"  type="text" id="name" name="user_name" required>
+        <input placeholder="Prénom"  type="text" id="name" name="user_name" required>
+    </div>
+    <div>
+        <input type="date">Date
+    </div>
+    <select name="tt" id="ee">
+        <option value="" disabled>Sexe</option>
+        <option value="homme">homme</option>
+        <option value="femme">femme</option>
+    </select>
+    <div>  <input placeholder="Email" type="email" id="email" required></div>
+    <div>  <input placeholder="Mot de passe" type="password" id="password" minlength="3"></div>
+    <div>  <input placeholder="URL GITHUB" type="url" id="url" required></div>
+    <div>  <input type="submit" value="Envoyer"></div>
+
+    <!---<div>  <textarea placeholder="Descritpions" id="message"></textarea></div>
+    <div>  <input type="submit" value="Envoyer"></div>
+    <div>
+        <input type="radio" name="skin" value="122">Skin 122 (H)
+        <input type="radio" name="skin" value="222">Skin 222 (F)
+    </div>
+    <div>
+        <input type="number">âge
+        <input type="date">Date
+        <input type="file">
+    </div>--->
+</form>
+</body>
+</html>
